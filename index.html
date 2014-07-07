@@ -1,0 +1,174 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<meta name="language" content="de">
+<meta name="author" content="Henrik Hüttemann">
+<meta name="copyright" content="© HerH.de">
+<meta name="designer" content="HerHde">
+
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<title>Grand Theft Rockstah: Rodgau City Stories</title>
+<link rel="shortcut icon" href="http://img.h3n.eu/fav/herhfavicon.png" >
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script type="text/javascript" src="./jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="./script.js"></script>
+<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<link rel="stylesheet" href="./fancybox/style.css" />
+</head>
+
+<body>
+<div id="headcenter">
+	<center><img src="./img/logo.jpg"></center>
+	<h1 style="text-align: center;">Grand Theft Rockstah</h1>
+	<h2 style="text-align: center;">Rodgau City Stories</h2>
+</div>
+<div id="wrap">
+	<div id="wSplash" class="full">
+		<button class="bNext btn">Play</button>
+	</div>
+	
+	<div id="wIntro" class="full">
+		<div class="wSupervisorFrame">
+			<h2>Willkommen...</h2>
+			<p class="avatar"><img src="./img/supervisor.jpg" title="Der Supervisor"><br> Der Supervisor</p>
+			<p>...In einer Welt, die wilder als all deine Träume ist! Oh... Unbeschreiblichkeit der Himmel... 
+				Es war die Herrlichkeit, und die Herrlichkeit wurde Fleisch! Naja, wie dem auch sei, wach endlich auf!
+				Es ist ein herrlicher Tag voller Möglichkeiten! Rockstah, die Welt, nein, viel wichtiger, Rodgau braucht dich!
+			</p>
+			<p>
+				Die vielen Leute hier in Rodgau haben unzählige Aufgaben für dich, sie brauchen den Rockstah! Und die ganzen neuen Releases für die Xbox erst...
+				Steh auf, vergiss, dich zu duschen, und raus in die reale Welt! ...Okay, mal eben WoW durchspielen geht vorher noch.
+				Hol dir den Gamerscore! Mach das "L"! Das ist die... Nerdrevolution! Etc, etc, etc...<br>
+				SVVAG!
+			</p>
+			<button class="bNext btn"> "L" </button>
+		</div>
+	</div>
+	
+	<div id="wGame" class="full">
+		<a href="#maid1" id="wGameMaid" class="box" title="Da braucht wohl jemand Hilfe!?" ><img src="./img/maid.jpg" style="width: 70px; height: 100px;"></a>
+		<a href="#sau" id="wGameSau" class="box"  title="Das muss wohl das Schwein sein."><img src="./img/schwein.gif" style="width: 120px; height: 82px;"></a>
+		<a href="#trecker1" id="wGameTrecker" class="box"  title="Vielleicht ist das der Gesuchte."><img src="./img/trecker.gif"></a>
+	</div>
+	
+	<div id="wOutro" class="full">
+		<div class="wSupervisorFrame">
+			<p class="avatar"><img src="./img/supervisor.jpg" title="Der Supervisor"><br> Der Supervisor</p>
+			<p>
+				Du hast aber nochmal Glück gehabt. Die Alte hat dir nur eine lange, lange Heugabel geschenkt.
+				Das war ja mal wieder ein aufregender Tag in Rodgau. Ich bin schon ganz außer Puste.
+				Die ganze Action hat sich gelohnt: Du hast sogar ein Achievement erhalten.
+			</p>
+			<p>
+				Och Mist, die Alte kann den Kanal nicht halten. Die steht wohl auf dich. Verdammt, es ist noch immer kein Feierabend.
+			</p>
+			<button class="bNext btn">Warte, ich SVVAG die eben WHACK.</button>
+		</div>
+		<img src="./img/endscreen.png">
+	</div>
+	
+	<div id="wOutro2" class="full">
+		<div class="wSupervisorFrame">
+			<p class="avatar"><img src="./img/supervisor.jpg" title="Der Supervisor"><br> Der Supervisor</p>
+			<p>
+				Eine brenzlige Situation war das, aber jeder vernünftige Mensch hätte genau so gehandelt und ihn kaltblütig umgelegt.
+				Tja, Life is a Battlefield. Hier in Rodgau ist aber ganzschön was los. Wie schon Gordon Freeman sagte: "Rodgau, der Nabel der Welt."
+				Oder sagte er was anderes als Nabel?
+			</p>
+			<p>
+				Ein Achivement hat das Ganze auch gebracht. Da soll noch einer sagen, Verbrechen lohnen sich nicht.
+				Ich habe das Gefühl, als würde morgen irgendetwas apokalyptisches passieren. Genau die richtige
+				Einstellung, um den Abend mit Fallout ausklingen zu lassen, bis die Sicherung durchknallt. Was soll ich noch weiteres sagen... Möge die Macht mit dir sein!
+			</p>
+			<hr style="clear:both;">
+			<a href="./credits.html" style="font-size: 20pt; color: #000;">[Credits]</a><br>
+		</div>
+		<img src="./img/endscreen2.png">
+	</div>
+</div>
+<div style="text-align: center; color: #888;">&copy; 2011 by <a href="http://herhde.com" style="color:inherit;">
+Henrik "HerHde" Hüttemann</a> | Version 1.3 | <a href="http://rockstah.de"  style="color:inherit;">Rockstah</a>&trade; may never become a <sup>&reg;</sup>
+</div>
+
+
+
+
+<div style="display:none;">
+	<div id="maid1" class="dialog">
+		<h2>Mission Nr. 1: Fange das Schwein</h2>
+		<p><i>Eine scharfe, holde Maid wartet am Wegesrand auf einen starken Retter. Doch du genügst auch.</i></p>
+		<p class="avatar"><img src="./img/maid.jpg" title="Die holde Maid"><br> Die holde Maid</p>
+		<p>Hey du faule Sau! Komma ran! Gut, wo wir gerade beim Thema Sau sind, mein Schwein ist weggelaufen.
+			Wenn du junger Knabe es mir tot oder lebendig bringst, werde ich mich mehr als erkenntlich zeigen.
+			Ich habe unter meinem Kleid noch eine lange Überraschung...
+		</p>
+		<button class="bNext btn">Ich hatte gerade eigentlich IRGENDWAS anderes vor. Egal was. Aber ein Schwein in Nöten... Ich machs.</button>
+	</div>
+	
+	<div id="sau" class="dialog">
+		<h2>Mission Nr. 1: Fange das Schwein</h2>
+		<p><i>Du läufst zu dem dämlichen Vieh hin, doch es wird direkt vor deinen Augen von einem Trecker mit Höchstgeschwindigkeit überfahren. Ausgerechnet in Rodgau...</i></p>
+		<p><i>Du packst dir die Reste in die Taschen und machst dich auf den Rückweg zu der alten Schrulle.</i></p>
+		</p>
+		<button class="bNext btn">Verdammte Matsche.</button>
+	</div>
+	
+	<div id="maid2" class="dialog">
+		<h2>Mission Nr. 1: Fange das Schwein</h2>
+		<p class="avatar"><img src="./img/maid.jpg" title="Die holde Maid"><br> Die holde Maid</p>
+		<p>Naja, dead or alive habe ich mir anders vorgestellt, die Pampe kannste haben. Aber nun zu deiner Überraschung. Versprochen ist versprochen.
+		</p>
+		<button class="bNext btn">*Schluck* - Äh, das ist doch nicht nötig...</button>
+	</div>
+	
+	<div id="maid3" class="dialog">
+		<h2>Mission Nr. 2: Vendetta the Rodgau style</h2>
+		<p class="avatar"><img src="./img/maid.jpg" title="Die holde Maid"><br> Die holde Maid</p>
+		<p>Hey Bursche, ich habs mir überlegt. Stell das Schwein dafür zur Rede, dass es das arme Ferkelein umgebracht hat. Also, ich meine den Traktorfahrer.
+		</p>
+		<button class="bNext btn">Rache ist Blutwurst! Ich suche den Trecker.</button>
+	</div>
+	
+	<div id="trecker1" class="dialog">
+		<p><i>Du schaust hinter den Bäumen nach, aber findest nichts.</i>
+		</p>
+		<button class="bNext btn">Hmm... Seltsam... Dr. Seltsam...</button>
+	</div>
+	
+	<div id="trecker2" class="dialog">
+		<h2>Mission Nr. 2: Vendetta the Rodgau style</h2>
+		<p class="avatar"><img src="./img/bauer.jpg" title="Die holde Maid"><br> Bauer Bleifuß</p>
+		<p><i>Du schaust noch einmal hinter den sehr dicht bewachsenen Wald und entdeckst den Trecker-Raser trotz seiner roten Tarnfarbe.
+		Anscheinend hat er gerade wieder nen Köter geplättet und bastelt jetzt irgendwie an seinem Güllewagen rum. Keine Ahnung,
+		wie ich das erklären soll, guck dir einfach das Bild an. Wie auch immer, er scheint nicht von hier zu sein. Leute von außerhalb können wir in Rodgau nicht gebrauchen.
+		Noch hat er dich nicht bemerkt...</i>
+		</p>
+		<p id="opt1"><button id="opt11" class="btn opt">Mit der Heugabel aufspießen</button>
+			<button id="opt12" class="btn opt">Mit Schweinematsch bewerfen</button><br>
+			 ODER <a id="opt13" class="btn opt" href="http://hhto.ws/8eqzm" style="text-decoration: none;" target="_blank">Versuchen, den Konflikt friedlich zu lösen</a>
+		</p>
+		<p id="opt2"><button id="opt21" class="btn opt">Den Trecker per Rockstah-Laserblick anzünden.</button>
+			<button id="opt22" class="btn opt">Den Trecker in die GTA-Tasche stecken und mitnehmen.</button>
+		</p>
+		<button style="display:none;" class="bNext btn">Ich will dann mal weiter...</button>
+	</div>
+	
+	<div id="maid4" class="dialog">
+		<h2>Mission Nr. 2: Vendetta the Rodgau style</h2>
+		<p class="avatar"><img src="./img/maid.jpg" title="Die holde Maid"><br> Die holde Maid</p>
+		<p>Dass so jemand wie du zum Amokläufer taugt, habe ich mir gleich gedacht. Diese Computerspieler, tsss. Counter-Stike verursacht eben Amokläufe, das haben 'se bei RTL
+		ja auch durchgesacht. Aber ich danke dir trotzdem.
+		</p>
+		<button class="bNext btn">Vielen Dank für die Blumen -.-</button>
+	</div>
+	
+</div>
+</html>
+
+
