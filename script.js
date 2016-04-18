@@ -59,7 +59,7 @@ $(document).ready(function(){
 	});
 
 	$("#opt12").click(function(){
-		$("#opt1").html('Du knallst ihm den Matsch volle latte an die Birne und siehe da, er explodiert natürlich. Wieder einmal für Gerechtigkeit gesorgt. Um den Trecker musst du dich allerdings noch kümmern...');
+		$("#opt1").html('Du knallst ihm den Matsch volle Latte an die Birne und siehe da, er explodiert natürlich. Wieder einmal für Gerechtigkeit gesorgt. Um den Trecker musst du dich allerdings noch kümmern...');
 		$("#opt2").fadeIn();
 	});
 
